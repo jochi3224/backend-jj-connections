@@ -1,0 +1,92 @@
+{
+  "kind": "collectionType",
+  "collectionName": "watches",
+  "info": {
+    "singularName": "watch",
+    "pluralName": "watches",
+    "displayName": "Watch"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "modelo": {
+      "type": "string"
+    },
+    "precio": {
+      "type": "decimal"
+    },
+    "descripcion": {
+      "type": "text"
+    },
+    "imagen_url": {
+      "type": "text"
+    },
+    "tienda": {
+      "type": "string"
+    },
+    "diametro": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "string"
+    },
+    "marca": {
+      "type": "string"
+    },
+    "referencia": {
+      "type": "string"
+    },
+    "moneda": {
+      "type": "string"
+    },
+    "condicion": {
+      "type": "enumeration",
+      "enum": [
+        "vendido ",
+        "disponible"
+      ]
+    },
+    "fuente_url": {
+      "type": "string"
+    },
+    "material": {
+      "type": "string"
+    },
+    "movimiento": {
+      "type": "string"
+    },
+    "activo": {
+      "type": "boolean"
+    },
+    "resistencia_agua": {
+      "type": "string"
+    },
+    "cristal": {
+      "type": "string"
+    },
+    "bisel": {
+      "type": "string"
+    },
+    "color_esfera": {
+      "type": "string"
+    },
+    "galeria": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "BraceletMaterial": {
+      "type": "string"
+    }
+  }
+}

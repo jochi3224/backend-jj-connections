@@ -129,3 +129,11 @@ dist
 build
 .strapi-updater.json
 .strapi-cloud.json
+node_modules
+.build
+.cache
+dist
+.env
+.env.local
+.tmp
+uploads
